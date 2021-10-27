@@ -31,6 +31,14 @@ basic.forever(function () {
             # # # # #
             # # # # #
             `)
+    } else if (input.soundLevel() > 10) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            # # # # #
+            `)
     } else {
         basic.showLeds(`
             . . . . .
